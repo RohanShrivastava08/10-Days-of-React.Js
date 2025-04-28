@@ -97,10 +97,6 @@ _(If not confident in these, take 1–2 days to revise!)_
     - Create a React project easily without any manual setup.
         
     
-    bash
-    
-    CopyEdit
-    
     `npx create-react-app my-first-app cd my-first-app npm start`
     
 
