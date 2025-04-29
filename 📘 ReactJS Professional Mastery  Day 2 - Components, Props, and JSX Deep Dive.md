@@ -264,3 +264,145 @@ CopyEdit
 **Q:** _What are Props in React?_
 
 > "Props (short for properties) are read-only attributes that allow data to be passed from a parent component to a child component. They help create dynamic and reusable components by customizing behavior or appearance based on the data provided."
+
+
+-------
+---
+
+# 📄 **Day 2 — Quick Revision Sheet (One-Page)**
+
+---
+
+### 🚀 What are Components?
+
+- **Building blocks** of React UI.
+    
+- Apps are a **tree of components**.
+    
+
+---
+
+### 🛠️ Types of Components
+
+|Functional Components|Class Components|
+|---|---|
+|Functions returning JSX|JavaScript Classes extending `Component`|
+|Use Hooks (after React 16.8)|Use lifecycle methods (e.g., `componentDidMount`)|
+|Cleaner and easier|Older but still important for legacy systems|
+
+---
+
+### 🎯 Functional Component Syntax
+
+javascript
+
+CopyEdit
+
+`function Welcome() {   return <h1>Hello!</h1>; }`
+
+---
+
+### 🎯 Class Component Syntax
+
+javascript
+
+CopyEdit
+
+`import React, { Component } from 'react'; class Welcome extends Component {   render() {     return <h1>Hello!</h1>;   } }`
+
+---
+
+### 🔥 What are Props?
+
+- **Short for "properties"**.
+    
+- Used to **pass data** from **Parent ➔ Child**.
+    
+- Props are **immutable** (cannot be changed inside child).
+    
+
+---
+
+### 🎯 Props Example
+
+**Parent**
+
+javascript
+
+CopyEdit
+
+`<Message name="John" />`
+
+**Child**
+
+javascript
+
+CopyEdit
+
+`function Message(props) {   return <h2>Hello, {props.name}!</h2>; }`
+
+➔ **With Destructuring**: `{ name }`
+
+---
+
+### 🧠 JSX (Advanced)
+
+- Looks like HTML inside JS.
+    
+- Must return **one parent element**.
+    
+- Use `{}` for dynamic JavaScript inside JSX.
+    
+- Attributes use **camelCase** (`className`, `htmlFor`).
+    
+
+---
+
+### 🔥 JSX Expressions Example
+
+javascript
+
+CopyEdit
+
+`const username = "Alice"; const element = <h1>Welcome, {username.toUpperCase()}!</h1>;`
+
+---
+
+### 🔹 Fragments
+
+Use `<></>` to avoid extra `<div>`.
+
+javascript
+
+CopyEdit
+
+`<>   <h1>Heading</h1>   <p>Paragraph</p> </>`
+
+---
+
+### 🔹 Strict Mode
+
+- Helps detect problems early.
+    
+- Wrap App inside `<React.StrictMode>`.
+    
+- Works only in development mode.
+    
+
+---
+
+### 💬 Common Interview Questions
+
+- What are components in React?
+    
+- Functional vs Class components?
+    
+- How do you pass data in React?
+    
+- What are props? Are props mutable?
+    
+- What is JSX? Why do we use `{}` inside JSX?
+    
+- Why use Fragment?
+    
+- What does React.StrictMode do?
