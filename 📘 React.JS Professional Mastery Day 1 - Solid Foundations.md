@@ -228,3 +228,83 @@ CopyEdit
 **Bonus**: How to Answer "What Problem Does React Solve?"
 
 > React solves the performance issues caused by frequent DOM updates by introducing a Virtual DOM system. It improves user experience, simplifies building dynamic web apps, and encourages reusable components.
+
+
+-------------------------------------------------------------------------------
+----
+
+# 📄 **Day 1 — Quick Revision Sheet (One-Page)**
+
+---
+
+### 🚀 What is ReactJS?
+
+- JavaScript **library** for building **dynamic UIs**.
+    
+- Created by **Facebook**.
+    
+- **Component-based**, **declarative**, uses **Virtual DOM**.
+    
+
+---
+
+### 🌟 Key Features
+
+- Virtual DOM → Fast Updates
+    
+- Reusable Components → Code once, use anywhere
+    
+- Unidirectional Data Flow → Predictable behavior
+    
+- Huge Ecosystem → Libraries, DevTools, Community
+    
+
+---
+
+### 🛠️ Setting Up
+
+1. Install Node.js (`node -v`, `npm -v`).
+    
+2. Create React App:
+    
+    bash
+    
+    CopyEdit
+    
+    `npx create-react-app my-app cd my-app npm start`
+    
+3. Folder structure:
+    
+    - `/src`: All main React code.
+        
+    - `index.js`: Entry point.
+        
+    - `App.js`: Main component.
+        
+
+---
+
+### 🔥 Key Concepts
+
+- **JSX**: Write HTML inside JavaScript.
+    
+- **Component**: Building block of UI (Functional or Class).
+    
+- **Virtual DOM**: React compares virtual vs real DOM and updates efficiently.
+    
+
+---
+
+### 💬 Common Interview Questions
+
+- What is ReactJS?
+    
+- Why use Virtual DOM?
+    
+- What is JSX?
+    
+- What is a Component?
+    
+- How to create a new React App?
+------
+----
