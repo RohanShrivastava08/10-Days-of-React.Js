@@ -51,7 +51,6 @@ Feel free to fork this repo, improve content, and create PRs!
 
 ## “Build, Learn, Repeat — One Day at a Time.”
 
-vbnet
 ```
 This is the **final full version**, formatted in Markdown, ready to paste into your `README.md`.
 ```
